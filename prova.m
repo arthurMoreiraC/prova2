@@ -1,12 +1,12 @@
 classdef prova
   
   properties
-    
+    sim
   end
   
   methods
-    function obj = prova()
-      
+    function obj = prova(sla)
+      obj.sim = sla;
     end
     
     function questao(obj, n)
@@ -15,9 +15,10 @@ classdef prova
       elseif n == 2
           atividade2
       else
-          error('Valor inválido')
+          disp('Valor inválido')
       end
     end
+    disp("pronto");
   end
 end
 
