@@ -1,4 +1,4 @@
 
-prova = class(atividade1);
+p = prova();
 
-prova.questao1()
+p.questao(1);
